@@ -1,5 +1,27 @@
-* {
-    padding: 0;
-    margin: 0;
+:root{
+    --ff-heading:'Epilogue', sans-serif;
+    --ff-texting:'Open sans', sans-serif;
+
+    --bg-primary:#28293e;
+    --fc-primary: #FFFFFF;
+    --fc-secondary:#bbb3e6;  
+}
+
+body{
+    font-family: var(--ff-texting);
+
+    background-color: var(--bg-primary);
+    color: var(--fc-primary);
+
+    
+}
+
+header{
+    font-family: var(--ff-heading);
+}
+
+header p{
+    color: var(--fc-secondary);
+    text-transform: uppercase;
 }
 
